@@ -1,10 +1,12 @@
 import express from 'express';
+import cors from 'cors';
 import cookieParser from 'cookie-parser';
 import authRoutes from './routes/auth.route.js';
 import postRoutes from './routes/post.route.js';
 
 const app = express();
 
+app.use(cors({origin: process.env.CLIENT_URL, credentials: true}));
 //lets us use json data
 app.use(express.json());
 //use cookies
