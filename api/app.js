@@ -15,6 +15,8 @@ app.use(cookieParser());
 app.use('/api/auth', authRoutes);
 app.use('/api/posts', postRoutes);
 
-app.listen(8800, () => {
-    console.log('Server is running on port 8800');
-})
+const PORT = process.env.PORT || 8800;
+
+app.listen(PORT, () => {
+    console.log(`Server is running on port ${PORT}`);
+  });
