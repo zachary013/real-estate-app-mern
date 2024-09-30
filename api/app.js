@@ -3,6 +3,7 @@ import cors from 'cors';
 import cookieParser from 'cookie-parser';
 import authRoutes from './routes/auth.route.js';
 import postRoutes from './routes/post.route.js';
+import testRoute from './routes/test.route.js';
 
 const app = express();
 
@@ -14,6 +15,7 @@ app.use(cookieParser());
 
 app.use('/api/auth', authRoutes);
 app.use('/api/posts', postRoutes);
+app.use('/api/test', testRoute);
 
 const PORT = process.env.PORT || 8800;
 
