@@ -40,7 +40,8 @@ enum Type {
 
 enum Property {
   apartment
-  house
+  flat
+  studio
   condo
   land
 }
