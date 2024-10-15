@@ -1,6 +1,13 @@
 # Riviera: Your Ultimate Property Marketplace
 
+## Home Page
 ![Home Page](screenshots/homepage.png)
+## Profile Page
+![Profile Page](screenshots/profile-page.png)
+## Update Profile Page
+![Update Profile](screenshots/update-profile.png)
+## Create New Post Page
+![Create Post Page](screenshots/create-post.png)
 
 ## Table of Contents
 - [Overview](#overview)
@@ -20,7 +27,7 @@
 
 ZA Real Estate is a cutting-edge, full-stack real estate application built by Zakariae Azarkan using the MERN stack (MongoDB, Express.js, React.js, Node.js) with Prisma as the ORM. This platform revolutionizes the way users interact with real estate listings, offering a seamless experience for property browsing, agent communication, and preference management.
 
-![Profile Page](screenshots/profile-page.png)
+
 
 ## Features
 
@@ -34,18 +41,18 @@ ZA Real Estate is a cutting-edge, full-stack real estate application built by Za
 - **Admin Dashboard**: Efficient management of listings and user data
 - **Interactive Maps**: Visualize property locations and nearby amenities
 
-![Update Profile](screenshots/update-profile.png)
+
 
 ## Tech Stack
 
-- **Frontend**: React.js, SASS, Redux for state management
+- **Frontend**: React.js, SASS
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB with Prisma ORM
 - **Authentication**: JSON Web Tokens (JWT)
 - **Real-time Communication**: Socket.io
-- **Maps Integration**: Mapbox or Google Maps API
-- **Cloud Storage**: AWS S3 for property images
-- **Deployment**: Docker, AWS or Heroku
+- **Maps Integration**: Leaflet
+- **Cloud Services**: Cloudinary
+- **Deployment**: vercel, onrender
 
 ## Project Structure
 
@@ -120,7 +127,7 @@ za-real-estate/
    cd client && npm start
    ```
 
-![Create Post Page](screenshots/create-post.png)
+
 
 ## Usage
 
@@ -138,10 +145,9 @@ To use the application:
 
 - `/api/auth` - Authentication routes (login, register, logout)
 - `/api/users` - User management (profile, preferences)
-- `/api/properties` - Property listings (CRUD operations)
+- `/api/list` - Property listings (CRUD operations)
 - `/api/messages` - Chat functionality
 - `/api/search` - Advanced search options
-- `/api/admin` - Admin-only routes for site management
 
 For detailed API documentation, refer to our [API Docs](link-to-api-docs).
 
