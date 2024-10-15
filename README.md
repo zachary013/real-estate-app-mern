@@ -1,6 +1,6 @@
 # Riviera: Your Ultimate Property Marketplace
 
-![Home Page](screenshots/homepage.png)
+![Home Page](public/screenshots/homepage.png)
 
 ## Table of Contents
 - [Overview](#overview)
