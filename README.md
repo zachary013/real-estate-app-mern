@@ -1,6 +1,6 @@
 # Riviera: Your Ultimate Property Marketplace
 
-![Home Page](public/screenshots/homepage.png)
+![Home Page](client/public/screenshots/homepage.png)
 
 ## Table of Contents
 - [Overview](#overview)
@@ -20,7 +20,7 @@
 
 ZA Real Estate is a cutting-edge, full-stack real estate application built by Zakariae Azarkan using the MERN stack (MongoDB, Express.js, React.js, Node.js) with Prisma as the ORM. This platform revolutionizes the way users interact with real estate listings, offering a seamless experience for property browsing, agent communication, and preference management.
 
-![Profile Page](screenshots/profile-page.png)
+![Profile Page](client/public/screenshots/profile-page.png)
 
 ## Features
 
@@ -34,7 +34,7 @@ ZA Real Estate is a cutting-edge, full-stack real estate application built by Za
 - **Admin Dashboard**: Efficient management of listings and user data
 - **Interactive Maps**: Visualize property locations and nearby amenities
 
-![Update Profile](screenshots/update-profile.png)
+![Update Profile](client/public/screenshots/update-profile.png)
 
 ## Tech Stack
 
@@ -120,7 +120,7 @@ za-real-estate/
    cd client && npm start
    ```
 
-![Create Post Page](screenshots/create-post.png)
+![Create Post Page](client/public/screenshots/create-post.png)
 
 ## Usage
 
