@@ -2,6 +2,8 @@
 
 ## Home Page
 ![Home Page](screenshots/homepage.png)
+## List Page
+![List Page](screenshots/list-page.png)
 ## Profile Page
 ![Profile Page](screenshots/profile-page.png)
 ## Update Profile Page
