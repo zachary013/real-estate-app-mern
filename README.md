@@ -27,7 +27,7 @@
 
 ## Overview
 
-ZA Real Estate is a cutting-edge, full-stack real estate application built by Zakariae Azarkan using the MERN stack (MongoDB, Express.js, React.js, Node.js) with Prisma as the ORM. This platform revolutionizes the way users interact with real estate listings, offering a seamless experience for property browsing, agent communication, and preference management.
+Riviera Estate is a full-stack real estate application built by Zakariae Azarkan using the MERN stack (MongoDB, Express.js, React.js, Node.js) with Prisma as the ORM. This platform revolutionizes the way users interact with real estate listings, offering a seamless experience for property browsing, agent communication, and preference management.
 
 
 
@@ -52,9 +52,9 @@ ZA Real Estate is a cutting-edge, full-stack real estate application built by Za
 - **Database**: MongoDB with Prisma ORM
 - **Authentication**: JSON Web Tokens (JWT)
 - **Real-time Communication**: Socket.io
-- **Maps Integration**: Leaflet
+- **Maps Integration**: Leaflet | Google Map API
 - **Cloud Services**: Cloudinary
-- **Deployment**: vercel, onrender
+- **Deployment**: vercel
 
 ## Project Structure
 
